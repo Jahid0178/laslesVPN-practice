@@ -1,0 +1,259 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.header_section {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #4F5665;
+}
+
+.create-account a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+#sign-in {
+    color: #0B132A;
+    font-weight: 500;
+}
+
+#sign-up {
+    color: #F53855;
+    font-weight: 500;
+    padding: 10px 50px;
+    border: 1px solid #F53855;
+    border-radius: 20px;
+}
+
+.hero-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 20vh);
+}
+
+.hero-sec h1 {
+    font-size: 50px;
+}
+
+.hero-sec h1 span {
+    font-weight: 700;
+}
+
+#hero-link {
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px #F53838;
+    padding: 10px;
+    background: #F53838;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+#hero-image {
+    margin-left: 50px;
+    width: 450px;
+}
+
+/* review section start here */
+#review-sec {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0 10px rgba(242, 242, 242, 242, 0.5);
+}
+
+.user,
+.location,
+.server {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* icon */
+
+.fa-user-alt,
+.fa-map-marker-alt,
+.fa-server {
+    font-size: 30px;
+    margin-right: 15px;
+    background-color: #FFECEC;
+    padding: 10px;
+    color: #F53838;
+    border-radius: 50px;
+}
+
+/* review section end here */
+
+/* feature section start here */
+
+#features-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.features-img img {
+    width: 350px;
+}
+
+.fa-check-circle {
+    color: #2FAB73;
+    margin-right: 10px;
+}
+
+/* feature section end here */
+
+/* planing section start here */
+
+.fa-check {
+    color: #2FAB73;
+    margin-right: 10px;
+}
+
+.plan-btn {
+    width: 150px;
+    margin: auto;
+    color: #F53838;
+    border: 1px solid #F53838;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.plan-btn:hover {
+    color: #fff;
+    background-color: #F53838;
+}
+
+.plan-btn-filled {
+    width: 150px;
+    margin: auto;
+    color: #fff;
+    background-color: #F53838;
+    border: 1px solid #F53838;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.plan-btn-filled:hover {
+    color: #F53838;
+    background-color: transparent;
+}
+
+/* planing section end here */
+
+/* global network start here */
+
+#global-network {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.global-network-text {
+    margin-top: 100px;
+}
+
+.global-network-img img {
+    width: 850px;
+    margin-top: 100px;
+}
+
+/* global network end here */
+
+/* client section start here */
+
+#client-section {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* client section end here */
+
+/* customer review start here */
+
+#customer-review {
+    width: 100%;
+    height: 100vh;
+}
+
+.customer-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* customer review end here */
+
+/* subscribe section start here */
+
+#subscribe-section {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-content {
+    width: 80%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 10px 20px rgba(216, 216, 216, 1);
+    border-radius: 5px;
+}
+
+.subscribe-button a {
+    padding: 10px 20px;
+    background-color: #F53838;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 10px 30px #F53838;
+}
+
+/* subscribe section end here */
